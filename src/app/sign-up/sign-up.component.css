@@ -1,0 +1,96 @@
+.container-fluid{
+
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1636955816868-fcb881e57954?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-color:#eee;
+    font-family: 'DM Sans', sans-serif; 
+}
+
+.VB{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Message{
+
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffc0cb;
+}
+.anime{
+
+    width:50%;
+    background-position: center;
+
+} 
+.b-pic{
+
+   background-size: cover;
+
+}
+.image-fluid{
+
+    width:5em;
+    height: 5em;
+    
+}
+.left-card{
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=829&q=80);
+    color: white;
+
+}
+.Right-card{
+
+    background-color: #FFFFFF;
+    align-content: center;
+}
+span{
+
+    color:	#ffc0cb;
+}
+.form-group span{
+    position: absolute;
+    color:blue;
+}
+.login{
+
+    align-content: center;
+}
+.form-control{
+
+    border-radius: 10rem;
+    box-shadow: none;
+    border:1px solid #008080;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+
+    background-color:#ffc0cb;
+    width: 200px;
+    height: 50px;
+    border-radius: 2000px;
+    border: none;
+    color:#FFFFFF
+}
+.column2{
+    
+    position:absolute;
+    font-size: small;
+    font-weight: bold;
+    text-orientation: sideways-right;
+    
+}
+a{
+
+    text-decoration: none;
+    
+}
+.DHA{
+
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5A5A5A;
+}
+
