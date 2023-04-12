@@ -5,10 +5,10 @@ const path = require('path');
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static('./dist/grind-automations'));
+app.use(express.static('./dist/sonic-softwares'));
 
 app.get('/*', (req, res) =>
-    res.sendFile('index.html', {root: 'dist/grind-automations/'}),
+    res.sendFile('index.html', {root: 'dist/sonic-softwares/'}),
 );
 const corsOptions ={
     origin:'http://localhost:4200', 
